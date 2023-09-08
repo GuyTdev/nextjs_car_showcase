@@ -1,3 +1,18 @@
+# a Modern Next.js 13 Application | React, Next JS 13, TypeScript, Tailwind CSS
+![Car Showcase](https://i.ibb.co/GxvFJDZ/Thumbnail.png)
+
+## Introduction
+App capabilities:
+
+- Next.js 13 App Router and Server Side Rendering
+- Advanced Search Functionality
+- Filtering Capabilities
+- Optimize Metadata and SEO
+- custom filter, combobox, and modal elements
+- well-organized file and folder structure.
+- principles of writing clean code.
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
