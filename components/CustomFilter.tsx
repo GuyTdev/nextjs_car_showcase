@@ -16,7 +16,7 @@ export default function CustomFilter({ title, options }: CustomFilterProps) {
   const handleUpdateParams = (e: { title: string; value: string }) => {
     const newPathName = updateSearchParams(title, e.value.toLowerCase());
 
-    router.push(newPathName);
+    router.push(newPathName, {scroll:false});
   };
 
   return (
@@ -41,7 +41,7 @@ export default function CustomFilter({ title, options }: CustomFilterProps) {
             leaveFrom='opacity-100'
             leaveTo='opacity-0'
           >
-            <Listbox.Options className='custom-filter__options' z-10>
+            <Listbox.Options className='custom-filter__options z-10'>
               {/* Map over the options and display them as listbox options */}
               {options.map((option) => (
                 <Listbox.Option
